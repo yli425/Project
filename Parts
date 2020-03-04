@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<head>
+	<title>Robots For Fun - Parts</title>
+	<style>
+		.content {
+			margin-left: 10%;
+			margin-right: 10%;
+		}
+
+		.windows, .mac, .circuit, .basic, .robot, .advance {
+			width: 30%;
+			padding: 20px;
+			text-align: justify;
+			display: table-cell;
+		}
+
+		.windows {
+			background-color: rgb(80,130,215);
+			border-right: 10px solid white;
+		}
+
+		.mac {
+			background-color: rgb(80,165,215);
+			border-right: 10px solid white;
+		}
+
+		.circuit {
+			background-color: rgb(80,195,215);
+		}
+
+		.basic {
+			background-color: rgb(120,155,220);
+			border-right: 10px solid white;
+		}
+
+		.robot {
+			background-color: rgb(130,185,220);
+			border-right: 10px solid white;
+		}
+
+		.advance {
+			background-color: rgb(130,210,220);
+		}
+		
+		.price {
+			color: rgb(250,250,250);
+		}
+
+	</style>
+</head>
+<body>
+	<center><h1>Getting your Parts</h1></center>
+
+	<div class="content">	
+		<h2>Software</h2>
+		<p>The open-source <a href="https://www.arduino.cc/">Arduino IDE</a> software is available for Windows PC, Mac OS X, and linux, and it is free. </p>
+		<div class="windows">
+			<center><h4>For Windows</h4></center>
+			<p>Download the Arduino IDE software for Windows here, and then run the installation program.</p>
+			<p>You will also need to install either this driver or this driver. After downloading the driver, extract the folder from the zip file and then run the setup program inside the folder. </p>
+		</div>
+		<div class="mac">
+			<center><h4>For Macs</h4></center>
+			<p>Download the Arduino IDE software for Macs here. </p>
+			<p>You will also need to install this driver.</p>
+		</div>
+		<div class="circuit">
+			<center><h4>Circuit Drawing Program</h4></center>
+			<p>Fritzing is a free open-source circuit drawing program that is very useful for teachers who want to draw their own Arduino circuits. All of the circuit pictures found in these tutorials are done with Fritzing. Furthermore, there is an option to professionally custom make a PCB board of your circuit</p>
+		</div>
+
+		<h2>Hardware</h2>
+		<p>Email to <a href="mailto:parts@robotsforfun.com">parts@robotsforfun.com</a> if you want to purchase any of the following kits and parts.</p>
+		<p>You can pay with cash, check, or your PayPal account using the "Send Money to Friends and Family" option and pay to <a href="mailto:payment@robotsforfun.com">payment@robotsforfun.com</a>.</p>
+
+		<h3>Kits</h3>
+		<p>Instead of getting individual parts, you can get more for less by getting a kit. </p>
+		<div class="basic">
+			<center>
+				<h4>Basic Kit</h4>
+				<b><p class="price">$35</p></b>
+			</center>
+			<ul>
+				<li>Arduino and USB cable</li>
+				<li>LEDs 5x</li>
+				<li>RGB LED</li>
+				<li>7-segment LED</li>
+					<ul><li>1 digit</li></ul>
+				<li>Buzzer</li>
+				<li>Push button</li>
+				<li>light sensor</li>
+				<li>Tilt sensor</li>
+				<li>Ultrasonic distance sensor</li>
+				<li>Servo motor</li>
+				<li>Potentiometer</li>
+				<li>Resistors 9x</li>
+					<ul>
+						<li>150 Ω x 5 brown-green-brown</li>
+						<li>330 Ω orange-orange-brown</li>
+						<li>1K Ω brown-black-red</li>
+						<li>4.7K Ω yellow-violet-red</li>
+						<li>22K Ω red-red-orange</li>
+					</ul>
+				<li>Breadboard with 400 tie points</li>
+				<li>Wires 12x</li>
+					<ul>
+						<li>3 long</li>
+						<li>9 short</li>
+					</ul>
+			</ul>
+		</div>
+		<div class="robot">
+			<center>
+				<h4>Robot Kit</h4>
+				<b><p class="price">$65</p></b>
+			</center>
+			<ul>
+				<li>Everything in the Basic Kit</li>
+				<li>Robot chassis with two DC motors</li>
+				<li>Wheels</li>
+				<li>L293D H-Bridge IC</li>
+			</ul>
+		</div>
+		<div class="advance">
+			<center>
+				<h4>Advance Kit</h4>
+				<b><p class="price">$135</p></b>
+			</center>
+			<ul>
+				<li>Everything in the Robot Kit</li>
+				<li>ESP8266-01 IOT Wifi module</li>
+				<li>7-segment LED</li>
+					<ul><li>8 digits includes the MAX7219 driver IC</li></ul>
+				<li>2x16 LCD</li>
+				<li>8 RGB LED ring with built-in WS2812 controller</li>
+				<li>Keypad 3x4 flexible</li>
+				<li>IR black/white/object sensor</li>
+				<li>Motion sensor</li>
+				<li>Sound sensor</li>
+				<li>Temperature and humidity sensor</li>
+				<li>Relay module</li>
+				<li>Stepper motor with ULN2003 Darlington driver chip</li>
+				<li>Resistors 25x</li>
+					<ul>
+						<li>150 Ω x 5</li>
+						<li>330 Ω x 5</li>
+						<li>1K Ω x 5</li>
+						<li>4.7K Ω x 5</li>
+						<li>22K Ω x 5</li>
+					</ul>
+				<li>Breadboard with 400 tie points 2x</li>
+				<li>Wires 24x</li>
+					<ul>
+						<li>6 long</li>
+						<li>18 short</li>
+					</ul>
+				<li>Storage box</li>
+			</ul>
+		</div>
+		<h3>Parts</h3>
+	</div>
+</body>
+</html>
